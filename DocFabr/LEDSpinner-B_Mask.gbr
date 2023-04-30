@@ -1,0 +1,59 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,(7.0.0)*%
+%TF.CreationDate,2023-04-30T19:25:27+03:00*%
+%TF.ProjectId,LEDSpinner,4c454453-7069-46e6-9e65-722e6b696361,1.0*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Soldermask,Bot*%
+%TF.FilePolarity,Negative*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW (7.0.0)) date 2023-04-30 19:25:27*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+G04 Aperture macros list*
+%AMHorizOval*
+0 Thick line with rounded ends*
+0 $1 width*
+0 $2 $3 position (X,Y) of the first rounded end (center of the circle)*
+0 $4 $5 position (X,Y) of the second rounded end (center of the circle)*
+0 Add line between two ends*
+20,1,$1,$2,$3,$4,$5,0*
+0 Add two circle primitives to create the rounded ends*
+1,1,$1,$2,$3*
+1,1,$1,$4,$5*%
+G04 Aperture macros list end*
+%ADD10C,1.000000*%
+%ADD11HorizOval,1.600000X-0.692820X0.400000X0.692820X-0.400000X0*%
+%ADD12C,10.000000*%
+%ADD13O,1.600000X3.200000*%
+%ADD14HorizOval,1.600000X0.692820X0.400000X-0.692820X-0.400000X0*%
+G04 APERTURE END LIST*
+D10*
+%TO.C,J1*%
+X120236266Y-114512057D03*
+X121896384Y-109604648D03*
+X123656148Y-110620648D03*
+%TD*%
+D11*
+%TO.C,BT3*%
+X135217499Y-110595075D03*
+X126782499Y-125204923D03*
+D12*
+X131000000Y-117900000D03*
+%TD*%
+D13*
+%TO.C,BT1*%
+X91564999Y-64299999D03*
+X108434999Y-64299999D03*
+D12*
+X100000000Y-64300000D03*
+%TD*%
+D14*
+%TO.C,BT2*%
+X73317499Y-125104923D03*
+X64882499Y-110495075D03*
+D12*
+X69100000Y-117800000D03*
+%TD*%
+M02*
